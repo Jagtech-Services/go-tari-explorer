@@ -19,7 +19,7 @@ info:
   version: "0.1.0"
   contact:
     name: go-tari-explorer
-    url: https://github.com/Snipa22/go-tari-explorer
+    url: https://github.com/Jagtech-Services/go-tari-explorer
 servers:
   # This repo's cmd/server binary is deployed twice from the same build (see the
   # tari-explorer-server / tari-explorer-testnet-server systemd units on the ops
