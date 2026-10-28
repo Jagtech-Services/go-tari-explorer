@@ -7,14 +7,14 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated"
 	"github.com/jackc/pgx/v5"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
-	"github.com/Snipa22/go-tari-explorer/internal/nodeclient"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/nodeclient"
 )
 
 // ---- fakeDB: a DBSearcher backed by an in-memory map, no real Postgres needed. ----

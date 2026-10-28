@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Snipa22/go-tari-explorer/internal/chartrender"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/chartrender"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // DefaultBucketSize is used by internal/server's analysis handlers when the

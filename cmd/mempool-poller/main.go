@@ -24,10 +24,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Snipa22/go-tari-explorer/internal/config"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
-	"github.com/Snipa22/go-tari-explorer/internal/mempoolpoller"
-	"github.com/Snipa22/go-tari-explorer/internal/nodeclient"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/config"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/mempoolpoller"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/nodeclient"
 )
 
 func main() {

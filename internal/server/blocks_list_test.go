@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // TestHandleBlocksList_AlgoGlanceCurrentDifficulty_SourcedFromTemplateSnapshots is the

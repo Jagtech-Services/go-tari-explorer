@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"
@@ -21,9 +21,9 @@ import (
 	"google.golang.org/grpc/test/bufconn"
 	"gopkg.in/yaml.v3"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
-	"github.com/Snipa22/go-tari-explorer/internal/nodeclient"
-	"github.com/Snipa22/go-tari-explorer/internal/poolstats"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/nodeclient"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/poolstats"
 )
 
 // decodeJSON decodes rec's body into a fresh T, failing the test on any decode error.

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Snipa22/go-tari-explorer/internal/chartrender"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/chartrender"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // testDSN returns the Postgres connection string to run these tests against, matching

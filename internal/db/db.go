@@ -106,7 +106,7 @@ func (d *DB) Migrate(ctx context.Context) error {
 }
 
 // Block is the row shape for the `blocks` table: a full decomposition of the real Tari
-// protobuf BlockHeader message (github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated,
+// protobuf BlockHeader message (github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated,
 // block.proto) plus its nested ProofOfWork message (1:1 per block, so flattened into
 // this same row rather than a separate table, with a pow_ prefix on its two fields),
 // plus the pre-existing block-level summary fields (string PowAlgo classification,
@@ -130,7 +130,7 @@ func (d *DB) Migrate(ctx context.Context) error {
 // Output.Commitment, still base64 here too for the same "raw struct, no bespoke
 // per-field hex encoding" consistency - see the dispatch brief's PR description note).
 type Block struct {
-	// BlockHeader fields (github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated.BlockHeader).
+	// BlockHeader fields (github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated.BlockHeader).
 	Height            uint64 `json:"height"`
 	Hash              string `json:"hash"` // hex-encoded BlockHeader.Hash
 	Version           uint32 `json:"version"`
@@ -593,7 +593,7 @@ func (d *DB) RewardsForHeightRange(ctx context.Context, fromHeight, toHeight uin
 }
 
 // Kernel is the row shape for the `kernels` table: one row per
-// github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated.TransactionKernel found in a
+// github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated.TransactionKernel found in a
 // block's body, keyed on (BlockHeight, Index). ExcessSigSignature is the canonical
 // per-transaction identifier used by internal/txsearch and the live TransactionState
 // RPC; ExcessSigNonce is carried alongside it because the two together make up the
