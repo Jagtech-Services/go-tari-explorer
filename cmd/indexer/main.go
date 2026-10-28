@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Snipa22/go-tari-explorer/internal/config"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
-	"github.com/Snipa22/go-tari-explorer/internal/indexer"
-	"github.com/Snipa22/go-tari-explorer/internal/nodeclient"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/config"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/indexer"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/nodeclient"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/Snipa22/go-tari-explorer/internal/poolattr"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/poolattr"
 )
 
 func strPtr(s string) *string { return &s }

@@ -12,7 +12,7 @@ package server
 import (
 	"strconv"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // formatMaxSecondsPtr renders a nullable max-seconds value as a plain integer string,

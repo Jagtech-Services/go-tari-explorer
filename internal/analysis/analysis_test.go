@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // testDSN resolves the Postgres connection string used by these tests: an explicit

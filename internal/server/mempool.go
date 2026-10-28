@@ -19,10 +19,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated"
 
-	"github.com/Snipa22/go-tari-explorer/internal/chartrender"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/chartrender"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // mempoolStatsView adapts a live tari_generated.MempoolStatsResponse for template

@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // errNotFound is the sentinel error fakeHeaderByHashFetcher returns for a hash it has

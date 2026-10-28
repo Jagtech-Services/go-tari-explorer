@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Snipa22/go-tari-explorer/internal/analysis"
-	"github.com/Snipa22/go-tari-explorer/internal/chartrender"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/analysis"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/chartrender"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // analysisParams is the parsed/defaulted bucket_size/from/to query-param triple shared

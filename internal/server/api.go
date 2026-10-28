@@ -32,9 +32,9 @@ import (
 	"github.com/jackc/pgx/v5"
 	"gopkg.in/yaml.v3"
 
-	"github.com/Snipa22/go-tari-explorer/docs"
-	"github.com/Snipa22/go-tari-explorer/internal/analysis"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/docs"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/analysis"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // MaxAPILimit caps a client-supplied ?limit= on /api/blocks - a JSON API consumer
@@ -355,7 +355,7 @@ func (s *Server) handleAPIAnalysisRewardsByPool(w http.ResponseWriter, r *http.R
 // apiTipInfo is the GET /api/tip-info response body, mirroring the real
 // tari_generated.TipInfoResponse/MetaData fields returned by
 // s.Node.GetTipInfo(ctx) - verified via `go doc
-// github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated.TipInfoResponse` and
+// github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated.TipInfoResponse` and
 // `... .MetaData` against this module's actual go-tari-grpc-lib/v3 dependency (NOT
 // guessed from textexplore.tari.com's own JSON sample):
 //

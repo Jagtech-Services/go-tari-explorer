@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Snipa22/go-tari-explorer/internal/analysis"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/analysis"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // wantAlgoOrder asserts got has exactly one row per analysis.AlgoOrder entry, in that

@@ -38,11 +38,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated"
 
-	"github.com/Snipa22/go-tari-explorer/internal/config"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
-	"github.com/Snipa22/go-tari-explorer/internal/nodeclient"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/config"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/nodeclient"
 )
 
 // defaultBatchSize is the number of consecutive block heights whose hashes/existing

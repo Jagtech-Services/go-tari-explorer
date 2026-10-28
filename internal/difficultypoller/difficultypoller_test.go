@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // fakeFetcher is a Fetcher backed by an in-memory canned response/error, no real

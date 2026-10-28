@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // TestBlockView_AdjustedDifficultyDisplay_Nil proves a block whose adjusted_difficulty

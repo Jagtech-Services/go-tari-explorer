@@ -22,11 +22,11 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/Snipa22/go-tari-explorer/internal/analysis"
-	"github.com/Snipa22/go-tari-explorer/internal/db"
-	"github.com/Snipa22/go-tari-explorer/internal/nodeclient"
-	"github.com/Snipa22/go-tari-explorer/internal/poolstats"
-	"github.com/Snipa22/go-tari-explorer/internal/txsearch"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/analysis"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/nodeclient"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/poolstats"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/txsearch"
 )
 
 //go:embed templates/*.html

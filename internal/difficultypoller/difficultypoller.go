@@ -21,7 +21,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 // Fetcher is the subset of *internal/db.DB's methods Poller needs to read the current

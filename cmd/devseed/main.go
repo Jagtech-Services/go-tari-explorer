@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Snipa22/go-tari-explorer/internal/db"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/db"
 )
 
 func main() {

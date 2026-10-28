@@ -7,7 +7,7 @@ package server
 import (
 	"math"
 
-	"github.com/Snipa22/go-tari-explorer/internal/chartrender"
+	"github.com/Jagtech-Services/go-tari-explorer/internal/chartrender"
 )
 
 // analysisTableView is what templates/analysis_view.html renders as the data table.
